@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    
+
+    <nav class="navbar">
+        <div class="logo"><a href="#">STAR<SPAN style="color:red;">BOY</SPAN> </a></div>       
+     <div class="navlinks">
+        <ul>
+            <li style="--i:#ff6b6b;--j:grey;">
+                <span class="icon">
+            <i class="fa-solid fa-mountain" style="color: #B8C0C2;"></i>           
+                </span>
+                <span class="text">
+                    DESTINATIONS
+                </span>
+            </li>
+            <li style="--i:#4e65ff;--j:#92effd;">
+                <span class="icon">
+                    <i class="fa-solid fa-route" style="color: #C6A15B;"></i>    
+                </span>
+                <span class="text">
+                    JOURNEY
+                </span>
+            </li>
+                 <li style="--i:rgb(59, 74, 62);--j:#26352F;">
+                <span class="icon">
+                  <i class="fa-solid fa-shoe-prints" style="color: #C9B79C;"></i>
+                </span>
+                <span class="text">
+                    EXPERIENCES 
+                </span>
+            </li> 
+             <li style="--i:black;--j:white;">
+                <span class="icon">
+                  <i class="fa-solid fa-earth-americas" style="color: #A9825A;"></i>
+                </span>
+                <span class="text">
+                    CULTURE
+                </span>
+            </li> 
+            <li style="--i:#6a82fb;--j:#fc5c7d;">
+                <span class="icon">
+                  <i class="fa-regular fa-star" style="color: goldenrod;"></i>
+                </span>
+                <span class="text">
+                    STORIES
+                </span>
+            </li> 
+          
+        </ul>
+    </div>    
+    <div class="cart">
+        <span class="icon">
+                    <i class="fa-solid fa-cart-shopping" style="color: #D4B978; font-size: 28px;"></i>
+                </span>
+                
+    </div>
+    </nav>   
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <p class="eyebrow">THE HIMALAYAS</p>
+        <h1>
+            Beyond<br>
+            <em>the Mountains.</em>
+        </h1>
+        <p>
+            Travel deeper. Experience more.
+        </p>
+        <a href="destination.html" class="line-btn">
+            Begin Exploring →
+        </a>
+    </div>
+</section>
+<section class="intro light">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+
+    <p class="section-label">A DIFFERENT WAY TO TRAVEL</p>
+    <h2>
+        Not just a destination.<br>
+        <em>A feeling.</em>
+    </h2>
+    <p class="short-text">
+        Discover landscapes, communities and stories
+        beyond the usual Himalayan trail.
+    </p>
+</div>
+</section>
+<section class="home-destinations">
+    <div class="section-heading">
+        <p class="section-label">EXPLORE</p>
+        <h2>
+            Find your<br>
+            <em>mountain.</em>
+        </h2>
+    </div>
+    <div class="destination-grid">
+        <a href="destinations.html" class="destination-card">
+            <img src="./img/ladhak.webp" alt="Ladakh">
+            <span>LADAKH</span>
+        </a>
+        <a href="destinations.html" class="destination-card">
+            <img src="./img/split.jpg" alt="Spiti">
+            <span>SPITI</span>
+        </a>
+        <a href="destinations.html" class="destination-card">
+            <img src="./img/sikkim.jpg" alt="Sikkim">
+            <span>SIKKIM</span>
+        </a>
+    </div>
+    <a href="destinations.html" class="center-link">
+        Explore all destinations →
+    </a>
+<section class="journey-hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <p class="eyebrow">
+            CURATED TRAVEL
+        </p>
+        <h1>
+            Your Journey<br>
+            <em>Starts Here.</em>
+        </h1>
+        <p>
+            Curated journeys into the heart
+            of the Himalayas.
+        </p>
+    </div>
+</section>
+<section class="journey-intro">
+    <p class="section-label">
+        THE JOURNEYS
+    </p>
+    <h2>
+        Go beyond<br>
+        <em>the ordinary.</em>
+    </h2>
+    <p class="intro-text">
+        Thoughtfully designed journeys connecting
+        you with landscapes, people and culture.
+    </p>
+</section>
+<section class="journey-filter">
+    <button class="filter-btn active" data-filter="all">
+        All
+    </button>
+    <button class="filter-btn" data-filter="adventure">
+        Adventure
+    </button>
+    <button class="filter-btn" data-filter="culture">
+        Culture
+    </button>
+    <button class="filter-btn" data-filter="escape">
+        Escape
+    </button>
+</section>
+<section class="packages">
+    <article class="package-card"
+             data-category="culture">
+        <div class="package-image spiti"></div>
+        <div class="package-content">
+            <span>01 / SPITI VALLEY</span>
+            <h3>
+                Spiti<br>
+                <em>Silence</em>
+            </h3>
+            <p>
+                Mountains · Villages · Monasteries
+            </p>
+            <div class="package-meta">
+                <span>5 DAYS · 4 NIGHTS</span>
+                <strong>
+                    ₹24,999
+                </strong>
+            </div>
+            <button
+                class="details-btn"
+                data-package="spiti">
+                Explore Journey →
+            </button>
+        </div>
+    </article>
+    <article class="package-card"
+             data-category="adventure">
+        <div class="package-image ladakh"></div>
+        <div class="package-content">
+            <span>02 / LADAKH</span>
+            <h3>
+                Ladakh<br>
+                <em></em>
+            </h3>
+            <p>
+                High Passes · Monasteries · Wild Landscapes
+            </p>
+            <div class="package-meta">
+                <span>7 DAYS · 6 NIGHTS</span>
+                <strong>
+                    ₹34,999
+                </strong>
+            </div>
+            <button
+                class="details-btn"
+                data-package="ladakh">
+
+                Explore Journey →
+            </button>
+        </div>
+    </article>
+    <article class="package-card"
+             data-category="escape">
+        <div class="package-image sikkim"></div>
+        <div class="package-content">
+            <span>03 / SIKKIM</span>
+            <h3>
+                Sikkim<br>
+                <em>in Mist</em>
+            </h3>
+            <p>
+                Forests · Monasteries · Mountain Air
+            </p>
+            <div class="package-meta">
+                <span>4 DAYS · 3 NIGHTS</span>
+                <strong>
+                    ₹19,999
+                </strong>
+            </div>
+            <button
+                class="details-btn"
+                data-package="sikkim">
+                Explore Journey →
+            </button>
+        </div>
+    </article>
+</section>
+<section class="build-journey">
+    <p class="section-label">
+        SOMETHING DIFFERENT?
+    </p>
+    <h2>
+        Create your<br>
+        <em>own journey.</em>
+    </h2>
+    <p>
+        Choose the place, pace and experiences
+        that feel right for you.
+    </p>
+    <a href="#" class="primary-btn">
+        Build My Journey →
+    </a>
+</section>
+<div class="journey-modal" id="journeyModal">
+    <div class="modal-box">
+        <button class="modal-close" id="modalClose">
+            ×
+        </button>
+        <p class="section-label">
+            YOUR JOURNEY
+        </p>
+        <h2 id="modalTitle">
+            Spiti Silence
+        </h2>
+        <p id="modalDescription">
+            Mountains, villages and ancient monasteries.
+        </p>
+        <div class="modal-details">
+            <span id="modalDuration">
+                5 DAYS · 4 NIGHTS
+            </span>
+            <strong id="modalPrice">
+                ₹24,999
+            </strong>
+        </div>
+        <button
+            class="book-btn"
+            id="bookBtn">
+            Book This Journey →
+        </button>
+    </div>
+</div>
+<section class="experience-preview">
+    <div>
+        <p class="section-label">EXPERIENCES</p>
+        <h2>
+            Live the<br>
+            <em>Himalayas.</em>
+        </h2>
+        <p>
+            Trek. Stay. Taste. Create.
+        </p>
+        <a href="experiences.html" class="line-btn">
+            Discover Experiences →
+        </a>
+    </div>
+</section>
+<section class="culture-hero">
+    <div class="hero-overlay"></div>
+    <div class="culture-hero-content">
+        <p class="section-label">
+            THE PEOPLE
+        </p>
+        <h1>
+            The Soul of<br>
+            <em>the Himalayas.</em>
+        </h1>
+        <p>
+            Stories, traditions and creativity
+            passed through generations.
+        </p>
+    </div>
+</section>
+<section class="culture-intro">
+     <div class="hero-overlay"></div>
+    <div class="hero-content">
+    
+
+    <p class="section-label">
+        CULTURE
+    </p>
+    <h2>
+        More than<br>
+        <em>mountains.</em>
+    </h2>
+    <p>
+        Discover the people, traditions,
+        food and craftsmanship that give
+        the Himalayas its soul.
+    </p>
+    </div>
+</section>
+<section class="culture-elements">
+    <article>
+        <span>01</span>
+        <h3>People</h3>
+        <p>
+            Meet the communities who call
+            the mountains home.
+        </p>
+    </article>
+    <article>
+        <span>02</span>
+        <h3>Traditions</h3>
+        <p>
+            Discover rituals and customs
+            passed through generations.
+        </p>
+    </article>
+    <article>
+        <span>03</span>
+        <h3>Craft</h3>
+        <p>
+            Handmade objects carrying
+            stories of their makers.
+        </p>
+    </article>
+</section>
+<section class="fashion">
+    <div class="fashion-heading">
+        <p class="section-label">
+            HIMALAYAN COLLECTION
+        </p>
+        <h2>
+            Wear the<br>
+            <em>Mountains.</em>
+        </h2>
+        <p id="all">
+            Inspired by Himalayan landscapes,
+            colours and spirit.
+        </p>
+    </div>
+    <div class="fashion-filter">
+   
+       <a href="#all"   class="fashion-btn active">All</a>
+        <a href="#men"    class="fashion-btn" >Men</a>
+          <a href="#women"    class="fashion-btn" >Women</a>
+            <a href="#unisex"    class="fashion-btn" >Unisex</a>
+    
+      
+    </div>
+    <div class="fashion-grid">
+        <article
+            class="fashion-card"
+           id="men" >
+            <div class="product-image dress1"></div>
+            <div class="product-info">
+                <span>
+                    MEN · HIMALAYAN EDITION
+                </span>
+                <h3>
+                    Mountain Form
+                </h3>
+                <p>
+                    ₹1,009
+                </p>
+                <button
+                    class="add-cart"
+                    data-product="Mountain Form"
+                    data-price="1999">
+                    Add to Cart →
+                </button>
+            </div>
+        </article>
+        <article
+            class="fashion-card"
+           id="men">
+            <div class="product-image dress7"></div>
+            <div class="product-info">
+                <span>
+                    MEN · MOUNTAIN EDITION
+                </span>
+                <h3>
+                    Mountain Mist
+                </h3>
+                <p>
+                    ₹1,699
+                </p>
+                <button
+                    class="add-cart"
+                    data-product="Mountain Mist"
+                    data-price="2699">
+                    Add to Cart →
+                </button>
+            </div>
+        </article> 
+          <article
+            class="fashion-card"
+            id="men">
+            <div class="product-image dress5"></div>
+            <div class="product-info">
+                <span>
+                    MEN · MOUNTAIN EDITION
+                </span>
+                <h3>
+                    Mountain Mist
+                </h3>
+                <p>
+                    ₹1,199
+                </p>
+                <button
+                    class="add-cart"
+                    data-product="Mountain Mist"
+                    data-price="2699">
+                    Add to Cart →
+                </button>
+            </div>
+        </article>
+        
+        <article
+            class="fashion-card"
+          id="unisex">
+            <div class="product-image dress3"></div>
+            <div class="product-info">
+                <span>
+                    UNISEX · HIGHLAND EDITION
+                </span>
+                <h3>
+                    Highland
+                </h3>
+            <p>
+                ₹999
+                </p>
+                <button
+                    class="add-cart"
+                    data-product="Highland"
+                    data-price="2199">
+                    Add to Cart →
+                </button>
+            </div>
+        </article>
+        <article
+            class="fashion-card"
+           id="women">
+            <div class="product-image dress4"></div>
+            <div class="product-info">
+                <span>
+                    WOMEN · MOUNTAIN EDITION
+                </span>
+                <h3>
+                    Mountain Mist
+                </h3>
+                <p>
+                    ₹2,699
+                </p>
+                <button
+                    class="add-cart"
+                    data-product="Mountain Mist"
+                    data-price="2699">
+                    Add to Cart →
+                </button>
+            </div>
+        </article>
+        
+          <article
+            class="fashion-card"
+            id="women">
+            <div class="product-image dress6"></div>
+            <div class="product-info">
+                <span>
+                    WOMEN · MOUNTAIN EDITION
+                </span>
+                <h3>
+                    Mountain Mist
+                </h3>
+                <p>
+                    ₹2,199
+                </p>
+                <button
+                    class="add-cart"
+                    data-product="Mountain Mist"
+                    data-price="2699">
+                    Add to Cart →
+                </button>
+            </div>
+        </article>
+          
+          <article
+            class="fashion-card"
+           id="women">
+            <div class="product-image dress8"></div>
+            <div class="product-info">
+                <span>
+                    WOMEN · MOUNTAIN EDITION
+                </span>
+                <h3>
+                    Mountain Mist
+                </h3>
+                <p>
+                    ₹2,000
+                </p>
+                <button
+                    class="add-cart"
+                    data-product="Mountain Mist"
+                    data-price="2699">
+                    Add to Cart →
+                </button>
+            </div>
+        </article>
+        <article
+            class="fashion-card"
+           id="women">
+            <div class="product-image dress2"></div>
+            <div class="product-info">
+                <span>
+                    WOMEN · VALLEY EDITION
+                </span>
+                <h3>
+                    Valley Bloom
+                </h3>
+                <p>
+                    ₹2,499
+                </p>
+                <button
+                    class="add-cart"
+                    data-product="Valley Bloom"
+                    data-price="2499">
+                    Add to Cart →
+                </button>
+            </div>
+        </article>
+    </div>
+</section>
+<section class="collaboration">
+    <p class="section-label">
+        A CREATIVE COLLABORATION
+    </p>
+    <h2 style="font-family: 'special';">
+        STARBOY ×<br>
+        <em>MESSI UNIQUES</em>
+    </h2>
+    <p>
+        A collection inspired by the
+        landscapes and spirit of the Himalayas.
+    </p>
+</section>
+<section class="final-cta">
+    <p class="section-label">YOUR STORY AWAITS</p>
+    <h2>
+        Where will<br>
+        <em>you go?</em>
+    </h2>
+    <a href="journeys.html" class="line-btn">
+        Explore Journeys →
+    </a>
+</section>
+ <footer>
+    <h3 style="font-family: 'special'; color: grey;">STAR<span style="color: red;">boy</span></h3>
+    <p style="color: whitesmoke;">Beyond the Mountains.</p>
+    <div>© 2026 STARBOY</div>
+</footer>   
+</body>
+</html>
